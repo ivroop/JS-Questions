@@ -22,7 +22,7 @@
 //     }
 //     return str2;
 // }
-// console.log(findLongestWord("Poorvi is good girlfriend"));
+// console.log(findLongestWord("Poorvi is good girl"));
 
 const findLongestWord = (str) => {
     if(str.trim().length === 0){
@@ -36,5 +36,5 @@ const findLongestWord = (str) => {
         (accu, curWord) => (curWord.length > accu.length ? curWord : accu)
     )
 }
-console.log(findLongestWord("Poorvi and Ayaan are in relationshipppp"));
+console.log(findLongestWord("hello, welcome to this page."));
 
